@@ -93,7 +93,7 @@ class AnalisadorLexico () :
       print(i)
 
   def _PegarToken(self):
-    return [self.table]
+    return self.table
       
 
   def analyse(self):
